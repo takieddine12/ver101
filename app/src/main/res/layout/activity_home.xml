@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verzion"
+        android:fontFamily="@font/canada_big"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_nsmart_family"
+        android:fontFamily="@font/canada_big"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="40dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="60dp"
+            app:cardBackgroundColor="#3F51B5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/canada_big"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Tr"/>
+
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="60dp"
+                app:cardBackgroundColor="#4CAF50"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="90dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/canada_big"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="Jo"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="60dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="#9C27B0">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/canada_big"
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="An"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="60dp"
+            app:cardBackgroundColor="#E91E63">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/canada_big"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Ga"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
