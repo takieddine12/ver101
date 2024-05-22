@@ -34,7 +34,7 @@ android {
 }
 
 dependencies {
-
+    implementation (libs.glide)
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
     implementation(libs.material)
